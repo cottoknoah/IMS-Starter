@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.customers</OriginalElement>
+  <nodes>
+    <node x="0.0" y="239.0">04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.products</node>
+    <node x="209.0" y="217.0">04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.orders</node>
+    <node x="201.5" y="0.0">04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.customers</node>
+    <node x="87.0" y="412.0">04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.orders_products</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.orders_products" target="04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.orders" relationship="REFERENCES">
+      <point x="53.75" y="-39.0" />
+      <point x="248.25" y="387.0" />
+      <point x="294.5" y="387.0" />
+      <point x="0.0" y="72.5" />
+    </edge>
+    <edge source="04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.orders_products" target="04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.products" relationship="REFERENCES">
+      <point x="-53.75" y="-39.0" />
+      <point x="140.75" y="387.0" />
+      <point x="94.5" y="387.0" />
+      <point x="0.0" y="50.5" />
+    </edge>
+    <edge source="04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.orders" target="04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.customers" relationship="REFERENCES">
+      <point x="0.0" y="-72.5" />
+      <point x="0.0" y="83.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="false" x="194.0" y="245.0" />
+  <SelectedNodes>
+    <node>04c1e0c2-1109-4718-a7f5-2928b3087269.TABLE:ims.customers</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Columns</Category>
+    <Category>Key columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
