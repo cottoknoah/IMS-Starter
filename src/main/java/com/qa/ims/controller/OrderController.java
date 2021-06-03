@@ -1,7 +1,5 @@
 package com.qa.ims.controller;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 package com.qa.ims.controller;
 
 import java.util.List;
@@ -84,10 +82,4 @@ public class OrderController implements CrudController<Order> {
         return OrderDAO.delete(id);
     }
 
-=======
-public class OrderController {
->>>>>>> feature
-=======
-public class OrderController {
->>>>>>> feature
 }
