@@ -70,9 +70,12 @@ public class CustomerDAO implements Dao<Customer> {
 	public Customer create(Customer customer) {
 		try (Connection connection = DBUtils.getInstance().getConnection();
 				PreparedStatement statement = connection
-						.prepareStatement("INSERT INTO customers(first_name, surname) VALUES (?, ?)");) {
+						.prepareStatement("INSERT INTO customers(first_name, last_name, phone_number, email, password) VALUES (?, ?)");) {
 			statement.setString(1, customer.getFirstName());
-			statement.setString(2, customer.getSurname());
+			statement.setString(2, customer.getLastName());
+			statement.setString(3, customer.getSurname());
+			statement.setString(4, customer.getSurname());
+			statement.setString(5, customer.getSurname());
 			statement.executeUpdate();
 			return readLatest();
 		} catch (Exception e) {
