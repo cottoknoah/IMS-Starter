@@ -5,19 +5,19 @@ public class Customer {
 	private Long id;
 	private String firstName;
 	private String lastName;
-	private Integer phoneNumber;
 	private String email;
-	private String password;
 
-	public Customer(String firstName, String LastName) {
+	public Customer(String firstName, String LastName, String email) {
 		this.setFirstName(firstName);
 		this.setLastName(lastName);
+		this.setEmail(email);
 	}
 
-	public Customer(Long id, String firstName, String lastName) {
+	public Customer(Long id, String firstName, String lastName, String email) {
 		this.setId(id);
 		this.setFirstName(firstName);
 		this.setLastName(lastName);
+		this.setEmail(email);
 	}
 
 	public Long getId() {
@@ -44,9 +44,18 @@ public class Customer {
 		this.lastName = lastName;
 	}
 
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+
 	@Override
 	public String toString() {
-		return "id:" + id + " first name:" + firstName + " LastName:" + lastName;
+		return "Id:" + id + " First Name:" + firstName + " Last Name:" + lastName + " Email:" + email;
 	}
 
 	@Override
@@ -56,8 +65,11 @@ public class Customer {
 		result = prime * result + ((firstName == null) ? 0 : firstName.hashCode());
 		result = prime * result + ((id == null) ? 0 : id.hashCode());
 		result = prime * result + ((lastName == null) ? 0 : lastName.hashCode());
+		result = prime * result + ((email == null) ? 0 : email.hashCode());
 		return result;
 	}
+
+//add email field in here
 
 	@Override
 	public boolean equals(Object obj) {
