@@ -10,6 +10,10 @@ One Paragraph of project description goes here
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+### Objective
+
+For our task we were set to: ‘To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during QA training
+
 ### Prerequisites
 
 What things you need to install the software and how to install them
