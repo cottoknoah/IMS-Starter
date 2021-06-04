@@ -50,12 +50,12 @@ Add additional notes about how to deploy this on a live system
 * [Maven](https://maven.apache.org/) - Dependency Management
 
 ## Additional Requirements
-Relational database that needs to have at least 3 tables in it.
-Kanban or Scrum board to track sprints.
-Clear Documentation from a MVC design phase describing the architecture and Risk Assessment.
-A functional CRUD application created in Java, following best practices and design principles
-Test suites for the application you are creating, as well as automated tests
-Code integrated into a Version Control System using the Feature-Branch model.
+* Relational database that needs to have at least 3 tables in it.
+* Kanban or Scrum board to track sprints.
+* Clear Documentation from a MVC design phase describing the architecture and Risk Assessment.
+* A functional CRUD application created in Java, following best practices and design principles
+* Test suites for the application you are creating, as well as automated tests
+* Code integrated into a Version Control System using the Feature-Branch model.
 
 ## Acknowledgments
 
