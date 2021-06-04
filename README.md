@@ -3,7 +3,10 @@ Coverage: 34%
 
 One Paragraph of project description goes here
 
-## Getting Started
+
+### Resources
+* Jira: https://cotto.atlassian.net/jira/software/projects/QCP/boards/5
+* Google Drive - Project Tracking: https://docs.google.com/document/d/1i-R3HiS_efnpbh2JKxT4dSRy1A3ylNQDpMJiojEib8c/edit?usp=sharing
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
@@ -72,15 +75,6 @@ Add additional notes about how to deploy this on a live system
 
 We use [SemVer](http://semver.org/) for versioning.
 
-## Authors
-
-* **Chris Perrins** - *Initial work* - [christophperrins](https://github.com/christophperrins)
-
-## License
-
-This project is licensed under the MIT license - see the [LICENSE.md](LICENSE.md) file for details 
-
-*For help in [Choosing a license](https://choosealicense.com/)*
 
 ## Acknowledgments
 
