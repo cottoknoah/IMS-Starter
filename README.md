@@ -1,8 +1,6 @@
 
 # Inventory Management System (IMS)
 
-One Paragraph of project description goes here
-
 
 ### Resources
 * Jira: https://cotto.atlassian.net/jira/software/projects/QCP/boards/5
