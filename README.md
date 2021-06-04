@@ -6,8 +6,6 @@
 * Jira: https://cotto.atlassian.net/jira/software/projects/QCP/boards/5
 * Google Drive - Project Tracking: https://docs.google.com/document/d/1i-R3HiS_efnpbh2JKxT4dSRy1A3ylNQDpMJiojEib8c/edit?usp=sharing
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Objective
 
 For our task we were set to: ‘To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during QA training
