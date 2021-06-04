@@ -14,19 +14,9 @@ These instructions will get you a copy of the project up and running on your loc
 
 For our task we were set to: ‘To create a CRUD application with utilisation of supporting tools, methodologies and technologies that encapsulate all core modules covered during QA training
 
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Beging with forking or cloing this repo: https://github.com/JHarry444/IMS-Starter
 
 ```
 Give the example
