@@ -16,19 +16,7 @@ For our task we were set to: ‘To create a CRUD application with utilisation of
 
 ### Installing
 
-Beging with forking or cloing this repo: https://github.com/JHarry444/IMS-Starter
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Begin with forking or cloing this repo: https://github.com/JHarry444/IMS-Starter
 
 ## Running the tests
 
