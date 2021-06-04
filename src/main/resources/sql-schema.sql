@@ -5,15 +5,13 @@ DROP SCHEMA ims;
 CREATE SCHEMA IF NOT EXISTS `ims`;
 USE `ims` ;
 
-# SHOW TABLES;
+SHOW TABLES;
 
 CREATE TABLE IF NOT EXISTS `ims`.`customers` (
     `customer_id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
     `first_name` VARCHAR(40) DEFAULT NULL,
     `last_name` VARCHAR(40) DEFAULT NULL,
-    `phone_number` INT(11) UNSIGNED NOT NULL,
     `email` VARCHAR(40) DEFAULT NULL,
-    `password` VARCHAR(40) DEFAULT NULL,
      PRIMARY KEY (`customer_id`),
      UNIQUE INDEX `email_UNIQUE` (`email`)
 );
@@ -23,9 +21,7 @@ DESC customers;
 CREATE TABLE IF NOT EXISTS `ims`.`orders` (
         `order_id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
         `customer_id` INT(11) UNSIGNED DEFAULT NULL,
-        `order_filled` BOOLEAN DEFAULT NULL,
         `order_date` DATETIME DEFAULT NULL,
-        `order_cost` FLOAT UNSIGNED NOT NULL,
         PRIMARY KEY (`order_id`),
         FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
 );
