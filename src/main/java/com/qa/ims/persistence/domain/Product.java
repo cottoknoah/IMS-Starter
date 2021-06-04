@@ -1,4 +1,4 @@
 package com.qa.ims.persistence.domain;
 
-public class Product {
+public class Product  {
 }

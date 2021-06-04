@@ -16,26 +16,26 @@ CREATE TABLE IF NOT EXISTS `ims`.`customers` (
      UNIQUE INDEX `email_UNIQUE` (`email`)
 );
 
-DESC customers;
-
-CREATE TABLE IF NOT EXISTS `ims`.`orders` (
-        `order_id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
-        `customer_id` INT(11) UNSIGNED DEFAULT NULL,
-        `order_date` DATETIME DEFAULT NULL,
-        PRIMARY KEY (`order_id`),
-        FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
-);
-
-# DESC orders;
+# DESC customers;
 
 CREATE TABLE IF NOT EXISTS `ims`.`products` (
         `product_id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
         `product_name` VARCHAR(40) DEFAULT NULL,
         `product_price` FLOAT UNSIGNED DEFAULT NULL,
-         PRIMARY KEY (`product_id`)
+        PRIMARY KEY (`product_id`)
 );
 
 # DESC products;
+
+CREATE TABLE IF NOT EXISTS `ims`.`orders` (
+        `order_id` INT(11) UNSIGNED NOT NULL AUTO_INCREMENT,
+        `customer_id` INT(11) UNSIGNED DEFAULT NULL,
+        `order_date` DATE DEFAULT NULL,
+        PRIMARY KEY (`order_id`),
+        FOREIGN KEY (customer_id) REFERENCES customers (customer_id)
+);
+
+# DESC orders;
 
 # Table the connects Many to Many Relationships
 CREATE TABLE IF NOT EXISTS `ims`.`orders_products` (
