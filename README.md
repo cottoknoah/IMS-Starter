@@ -35,7 +35,7 @@ Give an example
 
 ## Risk Assessment <a name="riskassessment"></a>
 
-The risk assessment can be found through the Google Drive link above
+The risk assessment can be found through this link: https://docs.google.com/spreadsheets/d/1K0VaICdVsxW5WN0-hKL5w8Rg74cWJlXdK3EXezWIxkc/edit?usp=sharing
 
 ```
 Give an example
