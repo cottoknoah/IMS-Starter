@@ -7,7 +7,7 @@ public class Customer {
 	private String lastName;
 	private String email;
 
-	public Customer(String firstName, String LastName, String email) {
+	public Customer(String firstName, String lastName, String email) {
 		this.setFirstName(firstName);
 		this.setLastName(lastName);
 		this.setEmail(email);
@@ -18,6 +18,9 @@ public class Customer {
 		this.setFirstName(firstName);
 		this.setLastName(lastName);
 		this.setEmail(email);
+	}
+	//	Zero argument constructor
+	public  Customer() {
 	}
 
 	public Long getId() {
