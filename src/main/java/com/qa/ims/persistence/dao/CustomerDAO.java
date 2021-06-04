@@ -121,7 +121,6 @@ public class CustomerDAO implements Dao<Customer> {
 		}
 		return null;
 	}
-
 	/**
 	 * Deletes a customer in the database
 	 * 
