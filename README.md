@@ -59,9 +59,9 @@ Explain what these tests test, why and how to run them
 Give an example
 ```
 
-### And coding style tests
+## Risk Assessment <a name="riskassessment"></a>
 
-Explain what these tests test and why
+The risk assessment can be found through the Google Drive link above
 
 ```
 Give an example
